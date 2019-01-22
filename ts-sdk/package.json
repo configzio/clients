@@ -1,0 +1,24 @@
+{
+  "name": "configzio-client",
+  "version": "0.0.1",
+  "description": "",
+  "url": "https://github.com/Configzio/typescript-client",
+  "repository": "configzio/client",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "start": "node ./dist/index"
+  },
+  "author": "Gabi Nir <gabi@configz.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.0"
+  }
+}
