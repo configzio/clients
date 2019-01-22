@@ -1,6 +1,6 @@
 {
   "name": "configzio-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "url": "https://github.com/configzio/clients/tree/master/ts-sdk",
   "repository": "configzio/client",
