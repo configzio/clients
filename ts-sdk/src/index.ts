@@ -10,7 +10,7 @@ type ConfigzioParameters = {
 	getToken?: () => Promise<string> | null,
 }
 
-function Configzio({application, getToken,}: ConfigzioParameters) {
+export default function Configzio({application, getToken,}: ConfigzioParameters) {
 	if (!application) {
 		throw new Error("must provide application")
 	}
